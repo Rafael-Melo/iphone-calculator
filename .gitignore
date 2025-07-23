@@ -1,0 +1,67 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VSCode settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# Test reports
+coverage/
+htmlcov/
+.mypy_cache/
+.poetry/
+.tox/
+.nox/
+.pytest_cache/
+
+# Logs and local files
+*.log
+*.tmp
+*.bak
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ▶️ macOS / Windows / Linux
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Poetry
+poetry.lock
+
+# MyPy
+.mypy_cache/
+
+# Pyright
+.pyright/
+
+# Build/dist
+build/
+dist/
+*.egg-info/
+*.egg/
+.eggs/
+
+# Misc
+*.sqlite3
+*.db
+.env
+.env.*
