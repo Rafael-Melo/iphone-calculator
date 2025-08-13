@@ -26,7 +26,7 @@ botoes = [
 ]
 
 def main(page: ft.Page):
-    page.bgcolor = '#000'
+    page.bgcolor = ft.Colors.BLACK
     page.title = 'Calculator'
     page.window.resizable = False
     page.window.width = 270
@@ -101,6 +101,6 @@ def main(page: ft.Page):
 
 
 if __name__ == '__main__':
-    ft.app(target=main)
+    ft.app(target=main, assets_dir='assets')
 
 # flet run .\src\iphone_calculator\main.py 
